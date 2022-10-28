@@ -38,12 +38,9 @@ header {
     border-radius: 15rem;
     user-select: none;
     -webkit-user-select: none;
-    -moz-user-select: none;
 
-
-    animation: apper 2s;
+    animation: apper 0.7s;
     animation-timing-function: ease-in-out;
-    opacity: 1;
     
 }
 
@@ -74,15 +71,11 @@ p {
 @keyframes apper {
 
     0% {
-        transform: scale(1.0);
-    }
-
-    50% {
-        transform: scale(1.03)
+        transform: translateY(-210px);
     }
 
     100% {
-        transform: scale(1.0);
+        transform: translateY(0px);
     }
 
 }
